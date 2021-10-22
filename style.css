@@ -1,0 +1,138 @@
+﻿
+html, body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+} 
+.img1{
+	height: 100%;
+	background-image: url(img/1.jpg);
+	text-align: center;
+}
+.text1_img1{
+	padding: 20%;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 250%;
+	animation: move 3s;
+}
+@keyframes move {
+  from {
+    margin-left: 100%;
+    width: 80%; 
+  }
+
+  to {
+    margin-left: -20%;
+    width: 100%;
+  }
+}
+.text2_img1{
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	font-size: 150%;
+	margin: -20%;
+}
+.img2 {
+    background-image: url(img/2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 60px;
+    align-items: top;
+    position: relative;
+}
+.img2 .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+}
+.text_img2{
+	padding: 8%;
+	text-align: center;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	color: black;
+    z-index: 3;
+	height: 20%;
+}
+.text1_img2{
+	padding: 1%;
+	color: #ffc226;
+	font-size: 50%;
+}
+.text2_img2{
+	font-size: 40%;
+}
+.img3 {
+    background-image: url(img/3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 60px;
+    align-items: top;
+    position: relative;
+}
+.img3 .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+}
+.text_img3{
+	padding: 8%;
+	text-align: center;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	color: black;
+    z-index: 3;
+	height: 20%;
+}
+.text1_img3{
+	padding: 1%;
+	color: #ffc226;
+	font-size: 50%;
+}
+.text2_img3{
+	font-size: 40%;
+}
+.podval{
+	text-align: center;
+	background-color: #0d0c09;
+	padding: 10%;
+}
+.podval_text{
+	
+}
+.podval_text1{
+	padding: 3%;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 270%;
+}
+.podval_text2{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 150%;
+}
+.avito{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.avito:hover{
+	color: #00d0ff;
+}
+.pravo{
+	font-size: 60%;
+}
